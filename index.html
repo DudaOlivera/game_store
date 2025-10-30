@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eclipse Gaming</title>
+    
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+</head>
+<body class="dark-mode">
+    <header class="header">
+        <div class="navbar-container">
+            <a href="#" class="logo">Eclipse games</a>
+            
+            <nav class="main-nav">
+                <a href="#descobrir" class="nav-link active">Descobrir</a>
+                <a href="#categorias" class="nav-link">Categorias</a>
+                <a href="#mais-vendidos" class="nav-link">Mais Vendidos</a>
+                <a href="#avaliacoes" class="nav-link">Avaliações</a>
+            </nav>
+            
+            <div class="header-right">
+            
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" checked />
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section" id="descobrir">
+            <div class="hero-content">
+                <h1 class="hero-title">Elden Ring</h1>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-large">Compre Agora - R$ 99,90</button>
+                </div>
+            </div>
+            <div class="hero-background">
+                </div>
+        </section>
+
+        <section class="category-section" id="categorias">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Categorias</h2>
+                </div>
+                
+                <div class="category-grid">
+                    <a href="#" class="category-card">
+                        <img src="assets/acao.png" alt="Ação">
+                        <div class="category-name"><h3>Ação</h3></div>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="assets/aventura.png" alt="Adventure">
+                        <div class="category-name"><h3>Adventure</h3></div>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="assets/arcade.png" alt="Arcade">
+                        <div class="category-name"><h3>Arcade</h3></div>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="assets/estrategia.png" alt="Estratégia">
+                        <div class="category-name"><h3>Estratégia</h3></div>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="assets/fps.png" alt="FPS">
+                        <div class="category-name"><h3>FPS</h3></div>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="assets/luta.png" alt="Luta">
+                        <div class="category-name"><h3>Luta</h3></div>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="assets/rpg.png" alt="RPG">
+                        <div class="category-name"><h3>RPG</h3></div>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="assets/single.png" alt="Single-player">
+                        <div class="category-name"><h3>Single-player</h3></div>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="assets/vr.png" alt="VR">
+                        <div class="category-name"><h3>VR</h3></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-showcase" id="mais-vendidos">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Top Jogos Mais Vendidos</h2>            
+                </div>
+                
+                <div class="top-sellers-grid">
+                    <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/footbal.png" alt="Football Manager 26">
+                            <span class="discount-tag" style="background-color: #f0ad4e;">-41%</span> </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">Football Manager 26</h3>
+                            <span class="seller-price">R$ 220,83</span>
+                        </div>
+                    </div>
+                    <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/batmam.png" alt="Batman: Arkham City GOTY">
+                            <span class="discount-tag">-95%</span>
+                        </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">Batman: Arkham City GOTY</h3>
+                            <span class="seller-price">R$ 6,26</span>
+                        </div>
+                    </div>
+                    <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/injust.avif" alt="Injustice 2 Legendary Edition">
+                            <span class="discount-tag">-96%</span>
+                        </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">Injustice 2 Legendary Edition</h3>
+                            <span class="seller-price">R$ 15,27</span>
+                        </div>
+                    </div>
+                    <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/mordor.jpg" alt="Middle-earth: Shadow of Mordor">
+                            <span class="discount-tag">-93%</span>
+                        </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">Middle-earth: Shadow of Mordor</h3>
+                            <span class="seller-price">R$ 8,76</span>
+                        </div>
+                    </div>
+                    <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/war.jpg" alt="Middle-earth: Shadow of War">
+                            <span class="discount-tag">-96%</span>
+                        </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">Middle-earth: Shadow of War</h3>
+                            <span class="seller-price">R$ 13,83</span>
+                        </div>
+                    </div>
+                    <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/plucky.jpeg" alt="The Plucky Squire">
+                            <span class="discount-tag">-92%</span>
+                        </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">The Plucky Squire - PC (Steam)</h3>
+                            <span class="seller-price">R$ 14,08</span>
+                        </div>
+                    </div>
+                     <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/knigth.jpg" alt="Batman: Arkham Knight Premium">
+                            <span class="discount-tag">-96%</span>
+                        </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">Batman: Arkham Knight Premium</h3>
+                            <span class="seller-price">R$ 11,14</span>
+                        </div>
+                    </div>
+                    <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/mans.png" alt="No Man's Sky">
+                            <span class="discount-tag">-86%</span>
+                        </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">No Man's Sky - PC & Mac</h3>
+                            <span class="seller-price">R$ 50,00</span>
+                        </div>
+                    </div>
+                    <div class="seller-card">
+                        <a href="#" class="seller-image-wrapper">
+                            <img src="jogos/gta.jpg" alt="Grand Theft Auto V">
+                            <span class="discount-tag">-67%</span>
+                        </a>
+                        <div class="seller-info">
+                            <h3 class="seller-title">Grand Theft Auto V Enhanced</h3>
+                            <span class="seller-price">R$ 61,26</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-section" id="avaliacoes">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Avaliações de Jogadores</h2>
+                </div>
+                
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"Simplesmente o melhor RPG que joguei nos últimos 5 anos. A história é cativante e os gráficos são de tirar o fôlego!"</p>
+                        <div class="review-author">
+                            <img src="https://placehold.co/40x40/555/FFF?text=U1" alt="Avatar">
+                            <span class="author-name">- RPG_Master</span>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="review-text">"Ótimo jogo de terror, levei muitos sustos. A otimização poderia ser um pouco melhor, mas nada que estrague a experiência."</p>
+                        <div class="review-author">
+                            <img src="https://placehold.co/40x40/555/FFF?text=U2" alt="Avatar">
+                            <span class="author-name">- Suzy_Gamer</span>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p class="review-text">"A física de simulação desse jogo é impressionante. Perfeito para relaxar depois de um dia de trabalho. Recomendo."</p>
+                        <div class="review-author">
+                            <img src="https://placehold.co/40x40/555/FFF?text=U3" alt="Avatar">
+                            <span class="author-name">- SimRacer_BR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">GameStore</div>
+            </div>
+            <p class="footer-copy">&copy; 2023 GameStore. Todos os direitos reservados. Este é um projeto fictício para portfólio.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

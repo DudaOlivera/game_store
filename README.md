@@ -127,9 +127,3 @@ Durante o desenvolvimento, foram aplicados conceitos de:
 
 Este projeto é apenas para fins educacionais e de portfólio.
 Todos os direitos de imagens e nomes de jogos pertencem aos seus respectivos criadores.
-
-
----
-
-Quer que eu adicione badges (como linguagens, licença, status do projeto, etc.) no topo do README também? Isso deixa o visual mais profissional no GitHub.
-```
